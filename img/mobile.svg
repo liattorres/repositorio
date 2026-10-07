@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="930" viewBox="0 0 430 930" role="img" aria-label="Versão mobile do dashboard">
+  <rect width="430" height="930" fill="#eef5ff"/>
+  <rect x="0" y="0" width="430" height="120" rx="18" fill="#16213d"/>
+  <text x="20" y="70" font-size="24" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#ffffff">DashBoard Pro</text>
+
+  <rect x="20" y="150" width="390" height="350" rx="24" fill="#ffffff"/>
+  <rect x="40" y="180" width="330" height="250" rx="16" fill="#dfeaff"/>
+  <text x="55" y="220" font-size="24" font-family="Verdana, Arial, sans-serif" fill="#0f172a">Acompanhe seu negócio</text>
+  <text x="55" y="350" font-size="20" font-family="Verdana, Arial, sans-serif" fill="#1d4ed8">Produtividade +42%</text>
+  <text x="55" y="385" font-size="20" font-family="Verdana, Arial, sans-serif" fill="#1d4ed8">Vendas +18%</text>
+
+  <g>
+    <rect x="20" y="530" width="390" height="90" rx="18" fill="#ffffff"/>
+    <text x="45" y="565" font-size="28" font-family="Verdana, Arial, sans-serif" fill="#16213d">24k</text>
+    <text x="45" y="594" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#475569">Usuários</text>
+
+    <rect x="20" y="640" width="390" height="90" rx="18" fill="#ffffff"/>
+    <text x="45" y="675" font-size="28" font-family="Verdana, Arial, sans-serif" fill="#16213d">89%</text>
+    <text x="45" y="704" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#475569">Satisfação</text>
+
+    <rect x="20" y="750" width="390" height="90" rx="18" fill="#ffffff"/>
+    <text x="45" y="785" font-size="28" font-family="Verdana, Arial, sans-serif" fill="#16213d">1.8M</text>
+    <text x="45" y="814" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#475569">Vendas</text>
+  </g>
+
+  <rect x="0" y="840" width="430" height="90" rx="18" fill="#0f172a"/>
+  <text x="30" y="892" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#ffffff">Instagram</text>
+  <text x="150" y="892" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#ffffff">LinkedIn</text>
+  <text x="285" y="892" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#ffffff">Facebook</text>
+</svg>

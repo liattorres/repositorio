@@ -19,7 +19,7 @@ A página foi estruturada para manter a mesma proposta visual da versão anterio
 ## Capturas
 
 ### Desktop
-![Versão desktop](./img/desktop.png)
+![Versão desktop](./img/desktop.svg)
 
 ### Mobile
-![Versão mobile](./img/mobile.png)
+![Versão mobile](./img/mobile.svg)
