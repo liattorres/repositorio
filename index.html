@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard Simples</title>
-    <meta name="description" content="Dashboard básico e responsivo em Bootstrap." />
+    <title>Dashboard</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,22 +14,14 @@
   </head>
   <body>
     <header class="site-header">
-      <nav class="navbar navbar-expand-lg navbar-dark container py-3" aria-label="Navegação principal">
-        <a class="navbar-brand fw-bold text-uppercase" href="#inicio">Dashboard</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navMenu"
-          aria-controls="navMenu"
-          aria-expanded="false"
-          aria-label="Abrir menu"
-        >
+      <nav class="navbar navbar-expand-lg navbar-dark container" aria-label="Navegação principal">
+        <a class="navbar-brand" href="#inicio">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto gap-lg-3">
-            <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
             <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="#beneficios">Benefícios</a></li>
             <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
@@ -40,76 +31,67 @@
     </header>
 
     <main id="inicio" class="container py-5">
-      <div class="row align-items-center g-4">
+      <div class="row g-4 align-items-center">
         <div class="col-12 col-lg-7">
-          <div class="main-panel p-4 p-md-5">
-            <p class="eyebrow">Dashboard & gestão</p>
-            <h1 class="main-title">Controle seus dados de forma simples.</h1>
-            <p class="main-text">
-              Acompanhe vendas, produtividade e desempenho geral em um painel fácil de ler,
-              organizado para decisões rápidas e sem complicação.
+          <section class="main-box">
+            <p class="text-blue">Dashboard</p>
+            <h1>Controle do seu negócio</h1>
+            <p>
+              Acompanhe vendas, clientes e metas em um painel simples e organizado.
             </p>
-            <div class="d-flex flex-wrap gap-3 mt-4">
-              <span class="pill">+42% vendas</span>
-              <span class="pill">+18% foco</span>
+            <div class="d-flex gap-3 flex-wrap mt-3">
+              <span class="tag">+42% vendas</span>
+              <span class="tag">+18% clientes</span>
             </div>
-          </div>
+          </section>
         </div>
 
         <div class="col-12 col-lg-5">
-          <div class="side-panel p-3 p-md-4">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-              <h2 class="side-title mb-0">Resumo</h2>
-              <span class="status">Hoje</span>
-            </div>
-
-            <div class="mini-metric mb-3">
+          <aside class="side-box">
+            <h2>Resumo</h2>
+            <div class="metric">
               <span>Vendas</span>
-              <strong>R$ 18.4k</strong>
+              <strong>R$ 18,4k</strong>
             </div>
-
-            <div class="mini-metric mb-3">
+            <div class="metric">
               <span>Clientes</span>
               <strong>1.280</strong>
             </div>
-
-            <div class="chart-box">
-              <div class="chart-row">
-                <span class="bar h-25"></span>
-                <span class="bar h-50"></span>
-                <span class="bar h-75"></span>
-                <span class="bar h-40"></span>
-                <span class="bar h-90"></span>
-                <span class="bar h-65"></span>
-              </div>
+            <div class="bars">
+              <span class="bar b1"></span>
+              <span class="bar b2"></span>
+              <span class="bar b3"></span>
+              <span class="bar b4"></span>
+              <span class="bar b5"></span>
+              <span class="bar b6"></span>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     </main>
 
-    <section id="sobre" class="container py-5">
+    <section id="sobre" class="container py-4">
       <div class="row g-3 text-center">
         <div class="col-6 col-md-3">
-          <div class="stat-box">
+          <div class="mini-card">
             <strong>24k</strong>
             <span>Usuários</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
-          <div class="stat-box">
+          <div class="mini-card">
             <strong>89%</strong>
             <span>Meta</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
-          <div class="stat-box">
+          <div class="mini-card">
             <strong>1.8M</strong>
             <span>Vendas</span>
           </div>
         </div>
         <div class="col-6 col-md-3">
-          <div class="stat-box">
+          <div class="mini-card">
             <strong>4.9/5</strong>
             <span>Nota</span>
           </div>
@@ -119,62 +101,50 @@
 
     <section id="beneficios" class="container py-5">
       <div class="text-center mb-4">
-        <p class="eyebrow">Benefícios</p>
-        <h2 class="section-title">O que esse painel oferece?</h2>
+        <p class="text-blue">Benefícios</p>
+        <h2>O que esse painel oferece?</h2>
       </div>
 
       <div class="row g-4">
         <article class="col-12 col-md-6 col-lg-4">
-          <div class="card feature-card">
-            <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
-              class="card-img-top"
-              alt="Equipe trabalhando com planejamento"
-            />
+          <div class="card simple-card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Equipe trabalhando" />
             <div class="card-body">
               <h3>Relatórios</h3>
-              <p>Veja o desempenho com informações organizadas e fáceis de entender.</p>
+              <p>Dados claros e organização para melhor análise.</p>
             </div>
           </div>
         </article>
 
         <article class="col-12 col-md-6 col-lg-4">
-          <div class="card feature-card">
-            <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80"
-              class="card-img-top"
-              alt="Pessoas analisando métricas"
-            />
+          <div class="card simple-card">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Planejamento" />
             <div class="card-body">
               <h3>Planejamento</h3>
-              <p>Organize metas e acompanhe informações importantes em um só lugar.</p>
+              <p>Monitore metas e acompanhe o andamento do negócio.</p>
             </div>
           </div>
         </article>
 
         <article class="col-12 col-md-6 col-lg-4">
-          <div class="card feature-card">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
-              class="card-img-top"
-              alt="Pessoa com computador e estratégia"
-            />
+          <div class="card simple-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Decisões" />
             <div class="card-body">
               <h3>Decisões</h3>
-              <p>Tomar ações rápidas com base em dados claros do seu negócio.</p>
+              <p>Use informações para agir rapidamente e com mais foco.</p>
             </div>
           </div>
         </article>
       </div>
     </section>
 
-    <footer id="contato" class="site-footer py-4 mt-5">
+    <footer id="contato" class="site-footer py-4">
       <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 text-center text-md-start">
         <div>
-          <h3 class="mb-1">Dashboard</h3>
-          <p class="mb-0 text-white-50">Solução simples para acompanhar seu crescimento.</p>
+          <h3>Dashboard</h3>
+          <p>Solução simples para acompanhar seu crescimento.</p>
         </div>
-        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-end">
+        <div class="d-flex gap-3 flex-wrap justify-content-center justify-content-md-end">
           <a href="#">Instagram</a>
           <a href="#">LinkedIn</a>
           <a href="#">Facebook</a>
