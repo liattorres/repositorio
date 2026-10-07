@@ -1,14 +1,14 @@
-﻿# DashBoard Pro
+﻿# Dashboard Simples
 
-Projeto de home-page responsiva criativa e funcional, desenvolvida com HTML, CSS e Bootstrap.
+Projeto de home-page responsiva com tema de dashboard básico, desenvolvido com HTML, CSS e Bootstrap.
 
 ## Dados do aluno
 - Nome: Liatt Torres
 - Atividade: Evolução e responsividade com Bootstrap da home-page
-- Tema: Dashboard moderno e minimalista
+- Tema: Dashboard simples e funcional
 
 ## Objetivo
-A página foi estruturada para manter a mesma proposta visual da versão anterior, porém com a responsividade reforçada usando o sistema de grid do Bootstrap e classes utilitárias do framework.
+A página foi estruturada com uma visualização mais limpa e didática, mantendo a responsividade do Bootstrap, mas com um estilo mais básico e acessível para o nível do projeto.
 
 ## Estrutura da home-page
 - Cabeçalho com brand e navegação
